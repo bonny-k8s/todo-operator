@@ -1,0 +1,11 @@
+apiVersion: todo-operator.bonny.run/v1
+kind: Todo
+metadata:
+  name: have-fun
+spec:
+  name: Have fun
+  description: |-
+    * [ ] [Fix a bug](https://github.com/coryodaniel/bonny/issues)
+    * [ ] Write an operator
+    * [ ] Share it on twitter -> [@coryodaniel](https://twitter.com/coryodaniel)
+  state: Pending
