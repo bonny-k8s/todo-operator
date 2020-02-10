@@ -21,7 +21,7 @@ defmodule TodoOperator.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:bonny, "0.4.0-rc3"}
+      {:bonny, "~> 0.4"}
     ]
   end
 end
